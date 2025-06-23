@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_chatItem_menupage">
+
+    <!-- Hot Items Fragment -->
+    <fragment
+        android:id="@+id/nav_hotItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_hotItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="HI" />
+    </fragment>
+
+    <!-- Frankie Fragment -->
+    <fragment
+        android:id="@+id/nav_frankie_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_frankie"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="FM" />
+    </fragment>
+
+    <!-- Lunch Items Fragment -->
+    <fragment
+        android:id="@+id/nav_lunchItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_lunchItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="LI" />
+    </fragment>
+
+    <!-- Noodles Fragment -->
+    <fragment
+        android:id="@+id/nav_noodles_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_noodles"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="ND" />
+    </fragment>
+
+    <!-- Soup Fragment -->
+    <fragment
+        android:id="@+id/nav_soup_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_soup"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="SP" />
+    </fragment>
+
+    <!-- Chat Items Fragment -->
+    <fragment
+        android:id="@+id/nav_chatItem_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="Chat Items"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="CI" />
+    </fragment>
+
+    <!-- Choupsey Fragment -->
+    <fragment
+        android:id="@+id/nav_choupsey_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_choupsey"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="CH" />
+    </fragment>
+
+    <!-- Dosa Items Fragment -->
+    <fragment
+        android:id="@+id/nav_dosaItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_dosaiItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="DI" />
+    </fragment>
+
+    <!-- Fast Items Fragment -->
+    <fragment
+        android:id="@+id/nav_fastItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_fastItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="FI" />
+    </fragment>
+
+    <!-- Gravy Items Fragment -->
+    <fragment
+        android:id="@+id/nav_gravyItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_gravyItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="GI" />
+    </fragment>
+
+    <!-- Grill Sandwich Fragment -->
+    <fragment
+        android:id="@+id/nav_grillSandwich_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_grillSandwich"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="GS" />
+    </fragment>
+
+    <!-- Masala Sandwich Fragment -->
+    <fragment
+        android:id="@+id/nav_masalaSandwich_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_masalaSandwich"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="MS" />
+    </fragment>
+
+    <!-- Rice Items Fragment -->
+    <fragment
+        android:id="@+id/nav_riceItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_riceItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="RI" />
+    </fragment>
+
+    <!-- Sandwich Fragment -->
+    <fragment
+        android:id="@+id/nav_sandwich_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_sandwich"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="SW" />
+    </fragment>
+
+    <!-- Snacks Fragment -->
+    <fragment
+        android:id="@+id/nav_snacks_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_snacks"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="SN" />
+    </fragment>
+
+    <!-- Special Rice Items Fragment -->
+    <fragment
+        android:id="@+id/nav_spclRiceItems_menupage"
+        android:name="com.example.dial2.menuPage.CategoryFragment"
+        android:label="@string/menu_specialRiceItems"
+        tools:layout="@layout/menupage_fragment_category">
+        <argument
+            android:name="categoryId"
+            app:argType="string"
+            android:defaultValue="SRI" />
+    </fragment>
+
+</navigation>

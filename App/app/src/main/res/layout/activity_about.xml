@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="Canteen Logo"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Our Canteen"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our college canteen! We provide a variety of fresh and hygienic food options at affordable prices. Our goal is to serve students with nutritious and tasty meals in a comfortable environment."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingTop="8dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Canteen Image"
+            android:paddingTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are open from 8 AM to 8 PM, Monday to Saturday. Come and enjoy delicious meals with your friends!"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

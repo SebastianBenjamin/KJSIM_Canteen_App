@@ -1,0 +1,23 @@
+<resources>
+    <string name="nav_header_title" translatable="false">KJSIM Canteen</string>
+    <string name="nav_header_subtitle" translatable="false">kjsim.somaiya.edu</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_hotItems" translatable="false">Hot Items</string>
+    <string name="menu_frankie" translatable="false">Frankie</string>
+    <string name="menu_lunchItems" translatable="false">Lunch Items</string>
+    <string name="menu_noodles" translatable="false">Noodles</string>
+    <string name="menu_soup" translatable="false">Soup</string>
+    <string name="menu_chatItems" translatable="false">Chat Items</string>
+    <string name="menu_choupsey" translatable="false">Choupsey</string>
+    <string name="menu_dosaiItems" translatable="false">Dosa Items</string>
+    <string name="menu_fastItems" translatable="false">Fast Items</string>
+    <string name="menu_gravyItems" translatable="false">Gravy Items</string>
+    <string name="menu_grillSandwich" translatable="false">Grill Sandwich</string>
+    <string name="menu_masalaSandwich" translatable="false">Masala Sandwich</string>
+    <string name="menu_riceItems" translatable="false">Rice Items</string>
+    <string name="menu_sandwich" translatable="false">Sandwich</string>
+    <string name="menu_snacks" translatable="false">Snacks</string>
+    <string name="menu_specialRiceItems" translatable="false">Special Rice Items</string>
+</resources>

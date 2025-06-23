@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">കാന്റീൻ</string>
+    <string name="canteen">കാന്റീൻ</string>
+    <string name="kj_somaiya">കെജെ സോമയ്യ ഇൻസ്റ്റിറ്റ്യൂട്ട് ഓഫ് മാനേജ്മെന്റ്</string>
+    <string name="chinese">റൈസ് ഐറ്റങ്ങൾ</string>
+    <string name="indian">ലഞ്ച് ഐറ്റങ്ങൾ</string>
+    <string name="south_indian">ദോശാ ഐറ്റങ്ങൾ</string>
+    <string name="sandwiches">സാൻഡ്‌വിച്ചുകൾ</string>
+    <string name="chaat">ചാറ്റ്</string>
+    <string name="soft_drinks">ചൂടായ പാനീയങ്ങൾ</string>
+</resources>

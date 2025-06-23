@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">कँटीन</string>
+    <string name="canteen">कँटीन</string>
+    <string name="kj_somaiya">केजे सोमैया इन्स्टिट्यूट ऑफ मॅनेजमेंट</string>
+    <string name="chinese">भाताचे प्रकार</string>
+    <string name="indian">दुपारचे जेवण</string>
+    <string name="south_indian">डोश्याचे प्रकार</string>
+    <string name="sandwiches">सँडविच</string>
+    <string name="chaat">चाट</string>
+    <string name="soft_drinks">गरम पदार्थ</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemIconTint="@null"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chatItem_menupage"
+            android:icon="@drawable/menupage_samosa"
+            android:title="@string/menu_chatItems" />
+        <item
+            android:id="@+id/nav_choupsey_menupage"
+            android:icon="@drawable/menupage_choupsey"
+            android:title="@string/menu_choupsey" />
+        <item
+            android:id="@+id/nav_dosaItems_menupage"
+            android:icon="@drawable/menupage_dosa"
+            android:title="@string/menu_dosaiItems" />
+        <item
+            android:id="@+id/nav_fastItems_menupage"
+            android:icon="@drawable/menupage_fast"
+            android:title="@string/menu_fastItems" />
+        <item
+            android:id="@+id/nav_frankie_menupage"
+            android:icon="@drawable/menupage_frankie"
+            android:title="@string/menu_frankie" />
+        <item
+            android:id="@+id/nav_gravyItems_menupage"
+            android:icon="@drawable/menupage_gravy"
+            android:title="@string/menu_gravyItems" />
+        <item
+            android:id="@+id/nav_grillSandwich_menupage"
+            android:icon="@drawable/menupage_grill_sandwich"
+            android:title="@string/menu_grillSandwich" />
+        <item
+            android:id="@+id/nav_hotItems_menupage"
+            android:icon="@drawable/menupage_tea_cup"
+            android:title="@string/menu_hotItems" />
+        <item
+            android:id="@+id/nav_lunchItems_menupage"
+            android:icon="@drawable/menupage_lunch"
+            android:title="@string/menu_lunchItems" />
+        <item
+            android:id="@+id/nav_masalaSandwich_menupage"
+            android:icon="@drawable/menupage_masala_sandwich"
+            android:title="@string/menu_masalaSandwich" />
+        <item
+            android:id="@+id/nav_noodles_menupage"
+            android:icon="@drawable/menupage_noodles"
+            android:title="@string/menu_noodles" />
+        <item
+            android:id="@+id/nav_riceItems_menupage"
+            android:icon="@drawable/menupage_rice"
+            android:title="@string/menu_riceItems" />
+        <item
+            android:id="@+id/nav_sandwich_menupage"
+            android:icon="@drawable/menupage_sandwich"
+            android:title="@string/menu_sandwich" />
+        <item
+            android:id="@+id/nav_snacks_menupage"
+            android:icon="@drawable/menupage_snacks"
+            android:title="@string/menu_snacks" />
+        <item
+            android:id="@+id/nav_soup_menupage"
+            android:icon="@drawable/menupage_soup"
+            android:title="@string/menu_soup" />
+        <item
+            android:id="@+id/nav_spclRiceItems_menupage"
+            android:icon="@drawable/menupage_spcl_rice"
+            android:title="@string/menu_specialRiceItems" />
+    </group>
+</menu>

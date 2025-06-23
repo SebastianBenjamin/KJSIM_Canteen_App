@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KJSIM Canteen</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open Navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close Navigation Drawer</string>
+    <string name="canteen">Canteen</string>
+    <string name="kj_somaiya">KJ Somaiya Institute of Management</string>
+    <string name="chinese">Rice Items</string>
+    <string name="indian">Lunch Items</string>
+    <string name="south_indian">Dosa Items</string>
+    <string name="sandwiches">Sandwich</string>
+    <string name="chaat">Chaat</string>
+    <string name="soft_drinks">Hot Items</string>
+
+</resources>

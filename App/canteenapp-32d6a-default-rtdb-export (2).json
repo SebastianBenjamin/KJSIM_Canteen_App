@@ -1,0 +1,994 @@
+{
+  "Categories": {
+    "CH": {
+      "image": "https://traditionalcomfort.com/storage/files/1/Foods/v.choupsey.jpeg",
+      "name": "Choupsey"
+    },
+    "CI": {
+      "image": "https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/1x1/1x1-samosa-chaat.jpg",
+      "name": "Chat Items"
+    },
+    "DI": {
+      "image": "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg",
+      "name": "Dosai Items"
+    },
+    "FI": {
+      "image": "https://images.slurrp.com/webstories/wp-content/uploads/2022/09/group-indian-tea-time-snacks-samosa-kachori-aloo-bonda-onion-pakora-moong-vada-chilli-fritter-etc-1.jpg",
+      "name": "Fast Items"
+    },
+    "FM": {
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/47fba9c8239a3944fc755b3cab17eb1c",
+      "name": "Frankie"
+    },
+    "GI": {
+      "image": "https://thewhiskaddict.com/wp-content/uploads/2024/03/IMG_0025-3-scaled.jpg",
+      "name": "Gravy Items"
+    },
+    "GS": {
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/veg-grilled-sandwich-recipe.jpg",
+      "name": "Grill Sandwich"
+    },
+    "HI": {
+      "image": "https://images.onlymyhealth.com/imported/images/2024/September/06_Sep_2024/mn.jpg",
+      "name": "Hot Items"
+    },
+    "LI": {
+      "image": "https://traditionallymodernfood.com/wp-content/uploads/2022/01/south-indian-lunch-combo-cooking-for-guest-scaled.jpeg",
+      "name": "Lunch Items"
+    },
+    "MS": {
+      "image": "https://www.spiceupthecurry.com/wp-content/uploads/2020/11/masala-toast-sandwich-1.jpg",
+      "name": "Masala Sandwich"
+    },
+    "ND": {
+      "image": "https://lifemadesweeter.com/wp-content/uploads/Easy-Vegetable-Lo-Mein-Recipe-Healthy-Noodles-500x500.jpg",
+      "name": "Noodles"
+    },
+    "RI": {
+      "image": "https://thewoksoflife.com/wp-content/uploads/2020/10/vegetable-fried-rice-13.jpg",
+      "name": "Rice Items"
+    },
+    "SN": {
+      "image": "https://images.slurrp.com/webstories/wp-content/uploads/2022/09/group-indian-tea-time-snacks-samosa-kachori-aloo-bonda-onion-pakora-moong-vada-chilli-fritter-etc-1.jpg",
+      "name": "Snacks"
+    },
+    "SP": {
+      "image": "https://cookingwithwineblog.com/wp-content/uploads/2022/10/Caramelized-Leek-and-Potato-Soup-Featured-1.jpg",
+      "name": "Soup"
+    },
+    "SRI": {
+      "image": "https://assets.gqindia.com/photos/5edf897e0f82d6d3cee5f0a7/master/pass/veg-biryani-recipes.jpg",
+      "name": "Special Rice Items"
+    },
+    "SW": {
+      "image": "https://www.watermelon.org/wp-content/uploads/2023/02/Sandwich_2023.jpg",
+      "name": "Sandwich"
+    }
+  },
+  "Customers": {
+    "cust001": {
+      "currentCart": "cart001",
+      "email": "rahul@example.com",
+      "lastOrder": "2025-04-14T09:30:00Z",
+      "name": "Rahul Sharma",
+      "orderCount": 5,
+      "phone": "+919876543210"
+    },
+    "cust002": {
+      "email": "priya@example.com",
+      "lastOrder": "2025-04-15T12:45:00Z",
+      "name": "Priya Patel",
+      "orderCount": 3,
+      "phone": "+919876543211"
+    },
+    "cust003": {
+      "currentCart": "cart003",
+      "email": "amit@example.com",
+      "lastOrder": "2025-04-10T11:20:00Z",
+      "name": "Amit Singh",
+      "orderCount": 7,
+      "phone": "+919876543212"
+    },
+    "cust004": {
+      "email": "neha@example.com",
+      "lastOrder": "2025-04-12T18:15:00Z",
+      "name": "Neha Gupta",
+      "orderCount": 2,
+      "phone": "+919876543213"
+    },
+    "cust005": {
+      "currentCart": "cart005",
+      "email": "vikram@example.com",
+      "lastOrder": "2025-04-16T14:00:00Z",
+      "name": "Vikram Joshi",
+      "orderCount": 10,
+      "phone": "+919876543214"
+    }
+  },
+  "Items": {
+    "CH001": {
+      "categoryId": "CH",
+      "name": "American Choupsey",
+      "price": 76
+    },
+    "CH002": {
+      "categoryId": "CH",
+      "name": "Schezwan Choupsey",
+      "price": 76
+    },
+    "CH003": {
+      "categoryId": "CH",
+      "name": "Chinese Choupsey",
+      "price": 76
+    },
+    "CI001": {
+      "categoryId": "CI",
+      "name": "Sev Puri",
+      "price": 38
+    },
+    "CI002": {
+      "categoryId": "CI",
+      "name": "Dahi Puri",
+      "price": 60
+    },
+    "CI003": {
+      "categoryId": "CI",
+      "name": "Mumbai Puri",
+      "price": 66
+    },
+    "CI004": {
+      "categoryId": "CI",
+      "name": "Bhel Puri",
+      "price": 38
+    },
+    "CI005": {
+      "categoryId": "CI",
+      "name": "Cheese Bhel",
+      "price": 80
+    },
+    "DI001": {
+      "categoryId": "DI",
+      "name": "Sada Dosa",
+      "price": 42
+    },
+    "DI002": {
+      "categoryId": "DI",
+      "name": "Butter Sada Dosa",
+      "price": 60
+    },
+    "DI003": {
+      "categoryId": "DI",
+      "name": "Cheese Sada Dosa",
+      "price": 76
+    },
+    "DI004": {
+      "categoryId": "DI",
+      "name": "Masala Dosa",
+      "price": 60
+    },
+    "DI005": {
+      "categoryId": "DI",
+      "name": "Cheese Masala Dosa",
+      "price": 85
+    },
+    "DI006": {
+      "categoryId": "DI",
+      "name": "Mysore Sada Dosa",
+      "price": 55
+    },
+    "DI007": {
+      "categoryId": "DI",
+      "name": "Mysore Masala Dosa",
+      "price": 75
+    },
+    "DI008": {
+      "categoryId": "DI",
+      "name": "Cheese Mysore Sada Dosa",
+      "price": 70
+    },
+    "DI009": {
+      "categoryId": "DI",
+      "name": "Cheese Mysore Masala Dosa",
+      "price": 86
+    },
+    "DI010": {
+      "categoryId": "DI",
+      "name": "Chinese Sada Dosa",
+      "price": 70
+    },
+    "DI011": {
+      "categoryId": "DI",
+      "name": "Chinese Masala Dosa (Noodles)",
+      "price": 81
+    },
+    "DI012": {
+      "categoryId": "DI",
+      "name": "Cheese Chinese Dosa",
+      "price": 105
+    },
+    "FI001": {
+      "categoryId": "FI",
+      "name": "Potato Chips With Lassi",
+      "price": 50
+    },
+    "FI002": {
+      "categoryId": "FI",
+      "name": "Potato Toast With Lassi",
+      "price": 50
+    },
+    "FI003": {
+      "categoryId": "FI",
+      "name": "Sabudana Wada",
+      "price": 50
+    },
+    "FI004": {
+      "categoryId": "FI",
+      "name": "Sabudana Khichidi With Lassi",
+      "price": 50
+    },
+    "FI005": {
+      "categoryId": "FI",
+      "name": "Alu Khichidi With Lassi",
+      "price": 50
+    },
+    "FI006": {
+      "categoryId": "FI",
+      "name": "Alu Jeera",
+      "price": 50
+    },
+    "FM001": {
+      "categoryId": "FM",
+      "name": "Schezwan Noodles Franky",
+      "price": 50
+    },
+    "FM002": {
+      "categoryId": "FM",
+      "name": "Double Cheese Franky",
+      "price": 105
+    },
+    "FM003": {
+      "categoryId": "FM",
+      "name": "Cheese Schezwan Samosa Franky",
+      "price": 94
+    },
+    "FM004": {
+      "categoryId": "FM",
+      "name": "Cheese Schezwan Paneer Franky",
+      "price": 100
+    },
+    "FM005": {
+      "categoryId": "FM",
+      "name": "Cheese Schezwan Mayonise Franky",
+      "price": 100
+    },
+    "FM006": {
+      "categoryId": "FM",
+      "name": "Cheese Schezwan Noodles Paneer Franky",
+      "price": 105
+    },
+    "FM007": {
+      "categoryId": "FM",
+      "name": "Cheese Mayonise Paneer Schezwan Franky",
+      "price": 105
+    },
+    "FM008": {
+      "categoryId": "FM",
+      "name": "Cheese Schezwan Manchurian Franky",
+      "price": 94
+    },
+    "FM009": {
+      "categoryId": "FM",
+      "name": "Cheese Schezwan Chilly Franky",
+      "price": 89
+    },
+    "FM010": {
+      "categoryId": "FM",
+      "name": "Manchurian Schezwan Franky",
+      "price": 58
+    },
+    "FM011": {
+      "categoryId": "FM",
+      "name": "Manchurian Chilly Cheese Franky",
+      "price": 105
+    },
+    "FM012": {
+      "categoryId": "FM",
+      "name": "Manchurian Paneer Franky",
+      "price": 84
+    },
+    "FM013": {
+      "categoryId": "FM",
+      "name": "Manchurian Mayonise Paneer Franky",
+      "price": 100
+    },
+    "FM014": {
+      "categoryId": "FM",
+      "name": "Manchurian Cheese Mayonise Paneer Franky",
+      "price": 126
+    },
+    "FM015": {
+      "categoryId": "FM",
+      "name": "Manchurian Noodles Franky",
+      "price": 58
+    },
+    "FM016": {
+      "categoryId": "FM",
+      "name": "Paneer Cheese Chilly Franky",
+      "price": 105
+    },
+    "FM017": {
+      "categoryId": "FM",
+      "name": "Paneer Mayonise Cheese Chilly Franky",
+      "price": 115
+    },
+    "FM018": {
+      "categoryId": "FM",
+      "name": "Paneer Samosa Franky",
+      "price": 84
+    },
+    "FM019": {
+      "categoryId": "FM",
+      "name": "Paneer Schezwan Franky",
+      "price": 68
+    },
+    "FM020": {
+      "categoryId": "FM",
+      "name": "Paneer Noodles Franky",
+      "price": 68
+    },
+    "FM021": {
+      "categoryId": "FM",
+      "name": "Paneer Mayonise Franky",
+      "price": 84
+    },
+    "FM022": {
+      "categoryId": "FM",
+      "name": "Mayonise Schezwan Franky",
+      "price": 58
+    },
+    "FM023": {
+      "categoryId": "FM",
+      "name": "Mayonise Samosa Franky",
+      "price": 73
+    },
+    "FM024": {
+      "categoryId": "FM",
+      "name": "Mayonise Samosa Cheese Chilly Franky",
+      "price": 115
+    },
+    "FM025": {
+      "categoryId": "FM",
+      "name": "Mayonise Noodles Franky",
+      "price": 63
+    },
+    "GI001": {
+      "categoryId": "GI",
+      "name": "Veg. Manchurian",
+      "price": 66
+    },
+    "GI002": {
+      "categoryId": "GI",
+      "name": "Veg. Chilly",
+      "price": 66
+    },
+    "GI003": {
+      "categoryId": "GI",
+      "name": "Veg. Garlic",
+      "price": 66
+    },
+    "GI004": {
+      "categoryId": "GI",
+      "name": "Paneer Chilly",
+      "price": 107
+    },
+    "GI005": {
+      "categoryId": "GI",
+      "name": "Idli Chilly",
+      "price": 66
+    },
+    "GI006": {
+      "categoryId": "GI",
+      "name": "Idli Manchurian",
+      "price": 66
+    },
+    "GS001": {
+      "categoryId": "GS",
+      "name": "Veg Grill",
+      "price": 84
+    },
+    "GS002": {
+      "categoryId": "GS",
+      "name": "Veg Cheese Grill",
+      "price": 102
+    },
+    "GS003": {
+      "categoryId": "GS",
+      "name": "Paneer Grill",
+      "price": 102
+    },
+    "GS004": {
+      "categoryId": "GS",
+      "name": "Veg Cheese Paneer Grill",
+      "price": 130
+    },
+    "GS005": {
+      "categoryId": "GS",
+      "name": "Veg Mayonnaise Grill",
+      "price": 100
+    },
+    "GS006": {
+      "categoryId": "GS",
+      "name": "Veg Masala Grill",
+      "price": 100
+    },
+    "GS007": {
+      "categoryId": "GS",
+      "name": "Chinese Cheese Grill",
+      "price": 120
+    },
+    "GS008": {
+      "categoryId": "GS",
+      "name": "Schezwan Grill",
+      "price": 100
+    },
+    "GS009": {
+      "categoryId": "GS",
+      "name": "Samosa Grill",
+      "price": 100
+    },
+    "HI001": {
+      "categoryId": "HI",
+      "name": "Tea",
+      "price": 15
+    },
+    "HI002": {
+      "categoryId": "HI",
+      "name": "Coffee",
+      "price": 19
+    },
+    "HI003": {
+      "categoryId": "HI",
+      "name": "Hot Milk",
+      "price": 26
+    },
+    "HI004": {
+      "categoryId": "HI",
+      "name": "Tea Half",
+      "price": 8
+    },
+    "HI005": {
+      "categoryId": "HI",
+      "name": "Tea Staff",
+      "price": 10
+    },
+    "LI001": {
+      "categoryId": "LI",
+      "name": "Chappati Bhaji",
+      "price": 60
+    },
+    "LI002": {
+      "categoryId": "LI",
+      "name": "Chappati Paneer Bhaji",
+      "price": 76
+    },
+    "LI003": {
+      "categoryId": "LI",
+      "name": "Puri Sada Bhaji",
+      "price": 60
+    },
+    "LI004": {
+      "categoryId": "LI",
+      "name": "Puri Paneer Bhaji",
+      "price": 76
+    },
+    "LI005": {
+      "categoryId": "LI",
+      "name": "Potato Bhaji",
+      "price": 45
+    },
+    "LI006": {
+      "categoryId": "LI",
+      "name": "Paneer Bhaji (Full)",
+      "price": 76
+    },
+    "LI007": {
+      "categoryId": "LI",
+      "name": "Paneer Bhaji (Half)",
+      "price": 47
+    },
+    "LI008": {
+      "categoryId": "LI",
+      "name": "Sada Bhaji (Full)",
+      "price": 55
+    },
+    "LI009": {
+      "categoryId": "LI",
+      "name": "Sada Bhaji (Half)",
+      "price": 37
+    },
+    "LI010": {
+      "categoryId": "LI",
+      "name": "Veg. Raita",
+      "price": 34
+    },
+    "LI011": {
+      "categoryId": "LI",
+      "name": "Plain Dahi (Curd)",
+      "price": 28
+    },
+    "LI012": {
+      "categoryId": "LI",
+      "name": "Single Chappati",
+      "price": 7
+    },
+    "LI013": {
+      "categoryId": "LI",
+      "name": "Dal Fry",
+      "price": 38
+    },
+    "LI014": {
+      "categoryId": "LI",
+      "name": "Dal Rice",
+      "price": 76
+    },
+    "LI015": {
+      "categoryId": "LI",
+      "name": "Dal Fry Rice",
+      "price": 86
+    },
+    "LI016": {
+      "categoryId": "LI",
+      "name": "Dahi Rice (Plain)",
+      "price": 65
+    },
+    "MS001": {
+      "categoryId": "MS",
+      "name": "Masala Toast Sandwich",
+      "price": 70
+    },
+    "MS002": {
+      "categoryId": "MS",
+      "name": "Cheese Masala Toast Sandwich",
+      "price": 100
+    },
+    "MS003": {
+      "categoryId": "MS",
+      "name": "Paneer Masala Toast",
+      "price": 100
+    },
+    "MS004": {
+      "categoryId": "MS",
+      "name": "Mayonnaise Masala Toast",
+      "price": 100
+    },
+    "MS005": {
+      "categoryId": "MS",
+      "name": "Schezwan Masala Toast",
+      "price": 100
+    },
+    "ND001": {
+      "categoryId": "ND",
+      "name": "Veg. Hakka Noodles",
+      "price": 86
+    },
+    "ND002": {
+      "categoryId": "ND",
+      "name": "Schezwan Noodles",
+      "price": 91
+    },
+    "ND003": {
+      "categoryId": "ND",
+      "name": "Singapore Noodles",
+      "price": 91
+    },
+    "ND004": {
+      "categoryId": "ND",
+      "name": "Manchow Noodles",
+      "price": 91
+    },
+    "ND005": {
+      "categoryId": "ND",
+      "name": "Manchurian Noodles",
+      "price": 97
+    },
+    "ND006": {
+      "categoryId": "ND",
+      "name": "Triple Schezwan Noodles",
+      "price": 97
+    },
+    "ND007": {
+      "categoryId": "ND",
+      "name": "Chinese Bhel",
+      "price": 76
+    },
+    "ND008": {
+      "categoryId": "ND",
+      "name": "Cheese Chinese Bhel",
+      "price": 107
+    },
+    "RI001": {
+      "categoryId": "RI",
+      "name": "Veg. Fried Rice",
+      "price": 86
+    },
+    "RI002": {
+      "categoryId": "RI",
+      "name": "Schezwan Fried Rice",
+      "price": 91
+    },
+    "RI003": {
+      "categoryId": "RI",
+      "name": "Singapore Rice",
+      "price": 91
+    },
+    "RI004": {
+      "categoryId": "RI",
+      "name": "Manchow Rice",
+      "price": 91
+    },
+    "RI005": {
+      "categoryId": "RI",
+      "name": "Manchurian Rice",
+      "price": 97
+    },
+    "RI006": {
+      "categoryId": "RI",
+      "name": "Triple Schezwan Rice",
+      "price": 97
+    },
+    "SN001": {
+      "categoryId": "SN",
+      "name": "Samosa Pav",
+      "price": 20
+    },
+    "SN002": {
+      "categoryId": "SN",
+      "name": "Vada Pav",
+      "price": 20
+    },
+    "SN003": {
+      "categoryId": "SN",
+      "name": "Samosa Plate",
+      "price": 38
+    },
+    "SN004": {
+      "categoryId": "SN",
+      "name": "Pav",
+      "price": 5
+    },
+    "SN005": {
+      "categoryId": "SN",
+      "name": "Butter Pav",
+      "price": 10
+    },
+    "SN006": {
+      "categoryId": "SN",
+      "name": "Batata Wada Samosa Usal (Plate)",
+      "price": 54
+    },
+    "SN007": {
+      "categoryId": "SN",
+      "name": "Vada Usal (Plate)",
+      "price": 48
+    },
+    "SN008": {
+      "categoryId": "SN",
+      "name": "Vada Usal (Single)",
+      "price": 27
+    },
+    "SN009": {
+      "categoryId": "SN",
+      "name": "Samosa Usal (Single)",
+      "price": 27
+    },
+    "SN010": {
+      "categoryId": "SN",
+      "name": "Vada Samosa Usal",
+      "price": 54
+    },
+    "SN011": {
+      "categoryId": "SN",
+      "name": "Dahi Samosa (Single)",
+      "price": 47
+    },
+    "SN012": {
+      "categoryId": "SN",
+      "name": "Usal Pav",
+      "price": 34
+    },
+    "SN013": {
+      "categoryId": "SN",
+      "name": "Misal Pav With 2 Pav",
+      "price": 50
+    },
+    "SN014": {
+      "categoryId": "SN",
+      "name": "Bread Pakoda",
+      "price": 39
+    },
+    "SN015": {
+      "categoryId": "SN",
+      "name": "Idli Samber",
+      "price": 39
+    },
+    "SN016": {
+      "categoryId": "SN",
+      "name": "Medu Wada Samber",
+      "price": 50
+    },
+    "SN017": {
+      "categoryId": "SN",
+      "name": "Idli Wada",
+      "price": 50
+    },
+    "SN018": {
+      "categoryId": "SN",
+      "name": "Dahi Idli",
+      "price": 53
+    },
+    "SN019": {
+      "categoryId": "SN",
+      "name": "Butter Idli",
+      "price": 53
+    },
+    "SN020": {
+      "categoryId": "SN",
+      "name": "Idli Fry",
+      "price": 50
+    },
+    "SN021": {
+      "categoryId": "SN",
+      "name": "Dahi Misal Pav",
+      "price": 65
+    },
+    "SN022": {
+      "categoryId": "SN",
+      "name": "Upma/Poha",
+      "price": 34
+    },
+    "SP001": {
+      "categoryId": "SP",
+      "name": "Manchow Soup",
+      "price": 68
+    },
+    "SP002": {
+      "categoryId": "SP",
+      "name": "Tomato Soup",
+      "price": 68
+    },
+    "SP003": {
+      "categoryId": "SP",
+      "name": "Veg. Clear Soup",
+      "price": 68
+    },
+    "SRI001": {
+      "categoryId": "SRI",
+      "name": "Tomato Rice With Dahi",
+      "price": 80
+    },
+    "SRI002": {
+      "categoryId": "SRI",
+      "name": "Lemon Rice",
+      "price": 66
+    },
+    "SRI003": {
+      "categoryId": "SRI",
+      "name": "Paneer Chilly Rice",
+      "price": 118
+    },
+    "SRI004": {
+      "categoryId": "SRI",
+      "name": "Veg. Biryani Rice",
+      "price": 97
+    },
+    "SRI005": {
+      "categoryId": "SRI",
+      "name": "Paneer Biryani Rice",
+      "price": 118
+    },
+    "SW001": {
+      "categoryId": "SW",
+      "name": "Bread Butter Sada",
+      "price": 30
+    },
+    "SW002": {
+      "categoryId": "SW",
+      "name": "Bread Butter Aloo Sada",
+      "price": 34
+    },
+    "SW003": {
+      "categoryId": "SW",
+      "name": "Veg Sada Sandwich",
+      "price": 36
+    },
+    "SW004": {
+      "categoryId": "SW",
+      "name": "Veg Cheese Sada Sandwich",
+      "price": 86
+    },
+    "SW005": {
+      "categoryId": "SW",
+      "name": "Only Cheese Sandwich",
+      "price": 76
+    },
+    "SW006": {
+      "categoryId": "SW",
+      "name": "Aloo Cheese Sandwich",
+      "price": 84
+    },
+    "SW007": {
+      "categoryId": "SW",
+      "name": "Paneer Sada Sandwich",
+      "price": 94
+    },
+    "SW008": {
+      "categoryId": "SW",
+      "name": "Veg Cheese Toast Sandwich",
+      "price": 97
+    },
+    "SW009": {
+      "categoryId": "SW",
+      "name": "Paneer Toast Sandwich",
+      "price": 94
+    },
+    "SW010": {
+      "categoryId": "SW",
+      "name": "Mayonnaise Toast Sandwich",
+      "price": 85
+    },
+    "SW011": {
+      "categoryId": "SW",
+      "name": "Chinese Toast Sandwich",
+      "price": 65
+    },
+    "SW012": {
+      "categoryId": "SW",
+      "name": "Veg Toast Sandwich",
+      "price": 60
+    },
+    "SW013": {
+      "categoryId": "SW",
+      "name": "Samosa Toast Sandwich",
+      "price": 63
+    },
+    "SW014": {
+      "categoryId": "SW",
+      "name": "Samosa Cheese Sandwich",
+      "price": 94
+    },
+    "SW015": {
+      "categoryId": "SW",
+      "name": "Chinese Cheese Toast Sandwich",
+      "price": 102
+    },
+    "SW016": {
+      "categoryId": "SW",
+      "name": "Cheese Paneer Toast Sandwich",
+      "price": 110
+    },
+    "SW017": {
+      "categoryId": "SW",
+      "name": "Schezwan Toast Sandwich",
+      "price": 68
+    },
+    "SW018": {
+      "categoryId": "SW",
+      "name": "Aloo Cheese Toast Sandwich",
+      "price": 94
+    },
+    "SW019": {
+      "categoryId": "SW",
+      "name": "Jam Cheese Toast Sandwich",
+      "price": 85
+    },
+    "SW020": {
+      "categoryId": "SW",
+      "name": "Cheese Chilly Toast Sandwich",
+      "price": 100
+    },
+    "SW021": {
+      "categoryId": "SW",
+      "name": "Paneer Chilly Toast Sandwich",
+      "price": 84
+    },
+    "SW022": {
+      "categoryId": "SW",
+      "name": "Paneer Chilly Cheese Toast Sandwich",
+      "price": 120
+    }
+  },
+  "Orders": {
+    "04052025214840": {
+      "customerId": "user@somaiya.edu",
+      "expectedDeliveryTime": "10:18 pm",
+      "items": [
+        null,
+        {
+          "itemName": "Coffee",
+          "itemPrice": 19,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Hot Milk",
+          "itemPrice": 26,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Paneer Masala Toast",
+          "itemPrice": 100,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Schezwan Masala Toast",
+          "itemPrice": 100,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Singapore Rice",
+          "itemPrice": 91,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Manchurian Rice",
+          "itemPrice": 97,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Tomato Rice With Dahi",
+          "itemPrice": 160,
+          "itemQuantity": 2
+        },
+        {
+          "itemName": "Paneer Chilly Rice",
+          "itemPrice": 118,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Paneer Biryani Rice",
+          "itemPrice": 118,
+          "itemQuantity": 1
+        }
+      ],
+      "orderDate": "04-05-2025 21:48:40",
+      "status": "pending",
+      "totalAmount": 829,
+      "totalItems": 9
+    },
+    "04052025215810": {
+      "customerId": "user@somaiya.edu",
+      "expectedDeliveryTime": "10:27 pm",
+      "items": [
+        null,
+        {
+          "itemName": "Masala Dosa",
+          "itemPrice": 60,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Chinese Sada Dosa",
+          "itemPrice": 70,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Tea",
+          "itemPrice": 15,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Tea Half",
+          "itemPrice": 8,
+          "itemQuantity": 1
+        },
+        {
+          "itemName": "Veg. Biryani Rice",
+          "itemPrice": 97,
+          "itemQuantity": 1
+        }
+      ],
+      "orderDate": "04-05-2025 21:58:10",
+      "status": "pending",
+      "totalAmount": 250,
+      "totalItems": 5
+    }
+  }
+}
